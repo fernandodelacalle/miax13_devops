@@ -12,3 +12,8 @@ def suma(a: int, b: int):
 @app.get("/resta")
 def resta(a: int, b: int):
     return a-b
+
+
+@app.get("/mult")
+def mult(a: int, b: int):
+    return a*b
